@@ -2,50 +2,21 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Анонимная Видеорулетка</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body {
-      width: 100%;
-      height: 100%;
-      background-color: #0f172a;
-      color: #ffffff;
-      font-family: system-ui, -apple-system, sans-serif;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-    header {
-      padding: 14px;
-      text-align: center;
-      background-color: #1e293b;
-      font-weight: bold;
-      border-bottom: 1px solid #334155;
-      flex-shrink: 0;
-    }
-    main {
-      flex: 1;
-      width: 100%;
-      height: 100%;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
+    html, body { width: 100%; height: 100%; background-color: #0f172a; overflow: hidden; }
+    iframe { width: 100%; height: 100%; border: none; display: block; }
   </style>
 </head>
 <body>
 
-  <header>🔥 МОЯ ВИДЕОРУЛЕТКА</header>
-
-  <main>
-    <iframe 
-      src="https://1-v-1-chat-roulette.whereby.com/chatfd7eb682-58f9-43e0-9442-4cd21c0773b4?embed&background=off&chat=off&people=off&leaveButton=off" 
-      allow="camera; microphone; fullscreen; speaker; display-capture">
-    </iframe>
-  </main>
+  <iframe 
+    src="https://1-v-1-chat-roulette.whereby.com/chatfd7eb682-58f9-43e0-9442-4cd21c0773b4" 
+    allow="camera; microphone; fullscreen; speaker; display-capture; autoplay"
+    sandbox="allow-forms allow-modals allow-popups allow-same-origin allow-scripts allow-downloads">
+  </iframe>
 
 </body>
 </html>
